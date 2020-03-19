@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CBIT Open Source Community // COSC</title>
+	<link rel="icon" type="image/png" href="img/Badge.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="team.js"></script>
+	<script src="button.js"></script>
+	<script src="collapse.js"></script>
+	<script src="dropdown.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<!-- <link rel="stylesheet" href="hover.css"> -->
+</head>
+
+<body>
+
+	<div class="mainbody">
+
+		<!-- navbar -->
+		<nav class="navbar navbar-default navbar-expand-md navbar-dark fixed-top">
+			<div class="container-fluid">
+				<a class="nav-brand" href="#"><img src="img/cosc.png" class="brand-img"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+					onclick="dark()">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="https://github.com/cbitosc">GitHub</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="coc.html">COC</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--- Image Slider -->
+		<div id="slides" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+				<li data-target="#slides" data-slide-to="2"></li>
+				<li data-target="#slides" data-slide-to="3"></li>
+				<li data-target="#slides" data-slide-to="4"></li>
+				<li data-target="#slides" data-slide-to="5"></li>
+				<li data-target="#slides" data-slide-to="6"></li>
+				<li data-target="#slides" data-slide-to="7"></li>
+				<li data-target="#slides" data-slide-to="8"></li>
+				<li data-target="#slides" data-slide-to="9"></li>
+				<li data-target="#slides" data-slide-to="10"></li>
+				<li data-target="#slides" data-slide-to="11"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/events/FrameCOSC.png" class="slide-img">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame-1.png" class="slide-img">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame3.png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Fram4 (1).png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame2.png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame5.png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame6.png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame7.png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame8.png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame9.png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame10.png">
+				</div>
+				<div class="carousel-item">
+					<img src="img/events/Frame11.png">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!-- arrow -->
+		<div class="box" onclick="scrollfun()">
+			<span></span>
+			<span></span>
+		</div>
+
+		<!--- Welcome Section -->
+		<div class="container-fluid description">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h2 class="display-6">CBIT Open Source Community</h2>
+				</div>
+				<div class="col-xl-12">
+					<p class="lead"><b> COSC</b> is an open source focused tech community based in Chaitanya Bharathi
+						Institute of Technology - Hyderabad.
+
+						We conduct hackathons, bootcamps and workshops to teach students different technologies while
+						promoting open source culture.</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container-fluid description">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h2 class="display-6">Why Open Source?</h2>
+				</div>
+				<div class="col-xl-12">
+					<p class="lead">Open Source encourages students to collaborate and helps in know how. It provides
+						students insight into better software and also helps to work on them.</p>
+				</div>
+			</div>
+		</div>
+
+		<!---Past Events -->
+		<div class="container-fluid description past-ev">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h2 class="display-6">Past Events</h2>
+				</div>
+			</div>
+			<hr class="rule">
+			<h3 class="year">2020</h3>
+			<div class="row past-events">
+				<div class="col-lg-4">
+					<div class=" image img-thumbnail">
+						<img src="img/events/whack.jpeg" class="img-thumbnail"><br><br>
+						<a href="#">W-Hack</a>
+						<p>19 February 2020</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class=" image img-thumbnail">
+						<img src="img/events/web_session_2020.png" class="img-thumbnail"><br><br>
+						<a href="#">Web Session</a>
+						<p>20 February 2020</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class=" image img-thumbnail">
+						<img src="img/events/SIHpost (1).jpeg" class="img-thumbnail"><br><br>
+						<a href="#">SIH internal Hackathon</a>
+						<p>18 January 2020</p>
+					</div>
+				</div>
+			</div>
+			<h3 class="year">2019</h3>
+			<div class="row past-events">
+				<div class="col-lg-4">
+					<div class=" image img-thumbnail">
+						<img src="img/events/hacktoberfest-2019.png" class="img-thumbnail"><br><br>
+						<a href="https://hacktoberfest.cbit.org.in/">Hacktoberfest-2019</a>
+						<p>25-26 October 2019</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/django-v2.jpg " class="img-thumbnail"><br><br>
+						<a href="https://djangocamp.cbit.org.in/">Django Camp v2.0</a href="#">
+						<p>5-6 September 2019</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/AI-ML-session 1 (2).png " class="img-thumbnail"><br><br>
+						<a href="#" style="text-decoration: none;">AI/ML Session</a href="#">
+						<p>9 March 2019</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/web-session.jpg " class="img-thumbnail"><br><br>
+						<a href="#" style="text-decoration: none;">Session on Web Development</a href="#">
+						<p>9 February 2019</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/python-101.jpg " class="img-thumbnail"><br><br>
+						<a href="#" style="text-decoration: none;">Python 101</a href="#">
+						<p>19 January 2019</p>
+					</div>
+				</div>
+			</div>
+			<h3 class="year">2018</h3>
+			<div class="row past-events">
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/flask-session-2018.jpeg" class="img-thumbnail"><br><br>
+						<a href="#" style="text-decoration: none;"> Flask and ML Basics Session</a href="#">
+						<p>16 February 2018</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/hacktoberfest-2018.jpg " class="img-thumbnail"><br><br>
+						<a href="https://hacktoberfest.cbit.org.in/">CBIT Hactoberfest Hackathon</a href="#">
+						<p>13-14 October 2018</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/dl-bootcamp.jpg " class="img-thumbnail"><br><br>
+						<a href="https://dl.cbit.org.in/">Deep Learning Bootcamp</a href="#">
+						<p>19-20 September 2018</p>
+					</div>
+				</div>
+			</div>
+
+			<h3 class="year">2017</h3>
+			<div class="row past-events">
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/month-of-webvr.jpg" class="img-thumbnail"><br><br>
+						<a href="#" style="text-decoration: none;">Month of WebVR</a href="#">
+						<p>August 2017</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/django-camp.jpg" class="img-thumbnail"><br><br>
+						<a href="#" style="text-decoration: none;">Django Camp</a href="#">
+						<p>6-7 October 2017</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/intro-to-git.jpg" class="img-thumbnail"><br><br>
+						<a href="#">Introduction to Git</a href="#">
+						<p>September 2017</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="image img-thumbnail">
+						<img src="img/events/frontend-session-2017.jpeg" class="img-thumbnail"><br><br>
+						<a href="#" style="text-decoration: none;">Session on Frontend Technologies</a href="#">
+						<p>September 2017</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- footer -->
+	<footer class="page__footer">
+		<div class="footer-content">
+			<div class="footer-col">
+				<h4>CBIT-OSC</h4>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="mailto:cbitosc@gmail.com">Contact</a></li>
+					<li><a href="coc.html">Code of Conduct</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col">
+				<h4>Find us on</h4>
+				<ul>
+					<li><a href="https://github.com/cbitosc" target="_blank" rel="noopener">GitHub</a></li>
+					<li><a href="https://medium.com/cosc" target="_blank" rel="noopener">Medium</a></li>
+					<li><a href="https://instagram.com/cbitosc/" target="_blank" rel="noopener">Instagram</a></li>
+					<li><a href="https://twitter.com/cbitosc" target="_blank" rel="noopener">Twitter</a></li>
+					<li><a href="https://facebook.com/cbitosc" target="_blank" rel="noopener">Facebook</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col">
+				<h4>&copy; COSC</h4>
+				<p>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+						<img alt="Creative Commons License" src="img/license.png" />
+					</a>
+				</p>
+				<p><a href="http://cbit.ac.in" target="_blank" rel="noopener">Chaitanya Bharathi Institute of
+						Technology</a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- js -->
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 80) {
+				$('.navbar-default').addClass('black');
+				$('.box').addClass('trans');
+			}
+			else {
+				$('.navbar-default').removeClass('black');
+				$('.box').removeClass('trans');
+			}
+		})
+		var flag;
+		function dark() {
+			if (flag == 0) {
+				$('.navbar-default').removeClass('black');
+				flag = 1;
+				window.scrollTo(0, 0);
+			}
+			else {
+				$('.navbar-default').addClass('black');
+				flag = 0;
+			}
+		}
+	</script>
+</body>
+
+</html>
